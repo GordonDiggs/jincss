@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+    <script type="text/javascript" src="jquery.jincss.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('.clicker').live('click', function(){
+          $('.demo1').incss('font-size', '3');
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <p><a href="#" class="clicker">Click me to increment the font size below</a></p>
+    <span class="demo1">Font size</span>
+  </body>
+
+</html>
