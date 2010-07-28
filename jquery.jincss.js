@@ -1,5 +1,5 @@
 (function($,undefined){
-  $.fn.incss = function(attribute, amount){
+  $.fn.jincss = function(attribute, amount){
     if(typeof amount == 'string'){
       amount = parseInt(amount);
     }
